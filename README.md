@@ -10,7 +10,7 @@
 
 **Flask-do-Zero** é um esqueleto para iniciar qualquer aplicação Flask com estrutura profissional e organizada.
 
-## ✨ O que já vem pronto
+## O que já vem pronto
 
 - Estrutura escalável
 - Flask organizado com Blueprints
