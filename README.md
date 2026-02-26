@@ -1,50 +1,45 @@
-Markdown<div align="center">
+<div align="center">
 
-<!-- Typing SVG mais estável (demolab fork) -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=4000&pause=1000&color=00FF41&center=true&vCenter=true&width=700&lines=FLASK_DO_ZERO;Inicie+qualquer+projeto+Flask+do+zero...;Sem+perder+tempo+configurando+merda+nenhuma;" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2000&pause=1000&color=00FF41&center=true&vCenter=true&width=700&lines=FLASK_DO_ZERO;Inicie+projetos+rapidamente;Rapido+e+sensacional;pq+o+mundo+nao+espera;" alt="Typing SVG" />
 
-<br>
-
-<!-- Efeito matrix rain fake (opcional - alguns navegadores mostram legal) -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=header&text=FLASK-DO-ZERO&fontSize=50&fontColor=00ff41&animation=twinkling&fontAlignY=35" />
 
 </div>
 
-<!-- ================================================== -->
-<!--               BOOT SEQUENCE - 2026               -->
-<!-- ================================================== -->
+---
+
+**Flask-do-Zero** é um esqueleto para iniciar qualquer aplicação Flask com estrutura profissional e organizada.
+
+## ✨ O que já vem pronto
+
+- Estrutura escalável
+- Flask organizado com Blueprints
+- Base pronta para expansão
+
+---
 
 
-<!-- Métricas cyberpunk do repositório (opcional - https://github.com/anuraghazra/github-readme-stats) -->
-<img src="https://github-readme-stats.vercel.app/api?username=FelipePalagio&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&count_private=true" alt="Estatísticas GitHub" height="180"/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=FelipePalagio&layout=compact&theme=dracula&hide_border=true&langs_count=8" alt="Top Linguagens" height="180"/>
 
 </div>
 
+---
 
-**Flask-do-Zero** é um esqueleto pra começar qualquer app web Flask sem ficar configurando pasta por pasta.
-
-Já vem com:
-
-- Estrutura profissional limpa e escalável
-
-- Flask + Blueprint organizado
-
+## Como usar
 
 ```bash
-# Clone o repo
+# Clone o repositório
 git clone https://github.com/FelipePalagio/Flask-do-Zero.git 
 
-
-# Crie e ative o ambiente
+# Crie o ambiente virtual
 python -m venv ENV
-source ENV/bin/activate
+
+# Ative o ambiente
+source ENV/bin/activate  # Linux/Mac
+ENV\Scripts\activate     # Windows
 
 # Instale as dependências
 pip install -r requirements.txt
-
-# Rode o servidor (modo dev com hot-reload)
+e so rodar
 python app.py
 # ou
-flask app --debug
+flask --app app --debug
