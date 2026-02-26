@@ -1,8 +1,7 @@
+Markdown<div align="center">
 
-<div align="center">
-
-<!-- Typing cyberpunk animation - substitua o username se quiser -->
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=4000&pause=1000&color=00FF41&center=true&vCenter=true&width=700&lines=FLASK_DO_ZERO; Inicie+qualquer+projeto+Flask+do+zero...; Sem+perder+tempo+configurando+merda+nenhuma;" alt="Typing SVG" />
+<!-- Typing SVG mais estável (demolab fork) -->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=4000&pause=1000&color=00FF41&center=true&vCenter=true&width=700&lines=FLASK_DO_ZERO;Inicie+qualquer+projeto+Flask+do+zero...;Sem+perder+tempo+configurando+merda+nenhuma;" alt="Typing SVG" />
 
 <br>
 
@@ -15,17 +14,6 @@
 <!--               BOOT SEQUENCE - 2026               -->
 <!-- ================================================== -->
 
-<pre lang="bash">
-╔════════════════════════════════════════════════════════════╗
-║  [BOOT] Sistema Flask-do-Zero v2.0 - Netrunning Protocol   ║
-╠════════════════════════════════════════════════════════════╣
-║  > Iniciando kernel Python 3.11+ ...                   OK  ║
-║  > Carregando dependências base                        OK  ║
-║  > Configurando ambiente virtual   ...                 OK  ║
-║  > Estabelecendo conexão com localhost:5000 ...        OK  ║
-║                                                            ║
-╚════════════════════════════════════════════════════════════╝
-</pre>
 
 <!-- Métricas cyberpunk do repositório (opcional - https://github.com/anuraghazra/github-readme-stats) -->
 <img src="https://github-readme-stats.vercel.app/api?username=FelipePalagio&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&count_private=true" alt="Estatísticas GitHub" height="180"/>
