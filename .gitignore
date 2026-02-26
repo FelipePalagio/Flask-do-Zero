@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# ambiente virtual
+ENV/
+.venv/
+venv/
+
+# Lixo do sistema
+.DS_Store
