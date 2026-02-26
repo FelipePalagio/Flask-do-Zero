@@ -1,16 +1,8 @@
-<!-- ================================================== -->
-<!--       ██████╗░██████╗░██╗░░░██╗░█████╗░██╗░░██╗     -->
-<!--       ██╔══██╗██╔══██╗██║░░░██║██╔══██╗██║░░██║     -->
-<!--       ██████╦╝██║░░██║██║░░░██║██║░░╚═╝███████║     -->
-<!--       ██╔══██╗██║░░██║██║░░░██║██║░░██╗██╔══██║     -->
-<!--       ██████╦╝██████╔╝╚██████╔╝╚█████╔╝██║░░██║     -->
-<!--       ╚═════╝░╚═════╝░░╚═════╝░░╚════╝░╚═╝░░╚═╝     -->
-<!-- ================================================== -->
 
 <div align="center">
 
 <!-- Typing cyberpunk animation - substitua o username se quiser -->
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=4000&pause=1000&color=00FF41&center=true&vCenter=true&width=700&lines=FLASK-DO-ZERO;v2.0+-+Modo+Netrunner+Ativado;Inicie+qualquer+projeto+Flask+do+zero...;Sem+perder+tempo+configurando+merda+nenhuma;python+app.py+&&+boom!;Acesso+liberado." alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=4000&pause=1000&color=00FF41&center=true&vCenter=true&width=700&lines=FLASK_DO_ZERO; Inicie+qualquer+projeto+Flask+do+zero...; Sem+perder+tempo+configurando+merda+nenhuma;" alt="Typing SVG" />
 
 <br>
 
@@ -27,66 +19,44 @@
 ╔════════════════════════════════════════════════════════════╗
 ║  [BOOT] Sistema Flask-do-Zero v2.0 - Netrunning Protocol   ║
 ╠════════════════════════════════════════════════════════════╣
-║  > Iniciando kernel Python 3.11+ ...                        OK  ║
-║  > Carregando dependências base (Flask, dotenv, etc.) ...  OK  ║
-║  > Configurando ambiente virtual ghost ...                 OK  ║
-║  > Estabelecendo conexão com localhost:5000 ...            OK  ║
-║  > Firewall de CORS desativado (porque somos do bem) ...   OK  ║
-║  > Injetando dark theme no Jinja2 ...                      OK  ║
+║  > Iniciando kernel Python 3.11+ ...                   OK  ║
+║  > Carregando dependências base                        OK  ║
+║  > Configurando ambiente virtual   ...                 OK  ║
+║  > Estabelecendo conexão com localhost:5000 ...        OK  ║
+║                                                            ║
 ╚════════════════════════════════════════════════════════════╝
 </pre>
 
-<div align="center">
-
-<!-- Cobrinha comendo suas contribuições - precisa de GitHub Action configurada -->
-<!-- Veja: https://github.com/Platane/snk -->
-<!-- Coloque na branch output ou main o arquivo gerado -->
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/SEU_USERNAME/SEU_USERNAME/blob/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/SEU_USERNAME/SEU_USERNAME/blob/output/github-contribution-grid-snake.svg" />
-  <img alt="cobra devorando contribuições" src="https://github.com/SEU_USERNAME/SEU_USERNAME/blob/output/github-contribution-grid-snake.svg" width="80%" />
-</picture>
-
-<br><br>
-
 <!-- Métricas cyberpunk do repositório (opcional - https://github.com/anuraghazra/github-readme-stats) -->
-<img src="https://github-readme-stats.vercel.app/api?username=SEU_USERNAME&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&count_private=true" alt="Estatísticas GitHub" height="180"/>
+<img src="https://github-readme-stats.vercel.app/api?username=FelipePalagio&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&count_private=true" alt="Estatísticas GitHub" height="180"/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SEU_USERNAME&layout=compact&theme=dracula&hide_border=true&langs_count=8" alt="Top Linguagens" height="180"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=FelipePalagio&layout=compact&theme=dracula&hide_border=true&langs_count=8" alt="Top Linguagens" height="180"/>
 
 </div>
 
-## ✨ O que diabos é isso aqui mesmo?
 
-**Flask-do-Zero** é um **esqueleto turbinado** pra você começar qualquer API ou app web Flask sem ficar 40 minutos configurando pasta por pasta.
+**Flask-do-Zero** é um esqueleto pra começar qualquer app web Flask sem ficar configurando pasta por pasta.
 
 Já vem com:
 
 - Estrutura profissional limpa e escalável
-- Ambiente virtual + .env pronto
-- Flask + Blueprint organizado
-- CORS, rate limiting e logging configurados
-- Suporte a Docker (dev + prod)
-- GitHub Actions pra testes + lint
-- README auto-documentado com badges vivos
-- Tema dark cyberpunk de brinde (porque a vida já é sofrida o suficiente)
 
-## 🚀 Instalação em 30 segundos (ou menos)
+- Flask + Blueprint organizado
+
 
 ```bash
 # Clone o repo
-git clone https://github.com/SEU_USERNAME/Flask-do-Zero.git meu-projeto-foda
-cd meu-projeto-foda
+git clone https://github.com/FelipePalagio/Flask-do-Zero.git 
+
 
 # Crie e ative o ambiente
-python -m venv venv
-source venv/bin/activate    # Windows: venv\Scripts\activate
+python -m venv ENV
+source ENV/bin/activate
 
 # Instale as dependências
 pip install -r requirements.txt
 
 # Rode o servidor (modo dev com hot-reload)
-python run.py
+python app.py
 # ou
-flask run --debug
+flask app --debug
