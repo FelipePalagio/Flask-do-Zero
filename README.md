@@ -1,3 +1,4 @@
+
 <div align="center">
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2000&pause=1000&color=00FF41&center=true&vCenter=true&width=700&lines=FLASK_DO_ZERO;Inicie+projetos+rapidamente;Rapido+e+sensacional;pq+o+mundo+nao+espera;" alt="Typing SVG" />
@@ -28,7 +29,11 @@
 
 ```bash
 # Clone o repositório
-git clone https://github.com/FelipePalagio/Flask-do-Zero.git 
+### HTTPS
+git clone https://github.com/FelipePalagio/Flask-do-Zero.git
+
+### SSH 
+git clone git@github.com:FelipePalagio/Flask-do-Zero.git
 
 # Crie o ambiente virtual
 python -m venv ENV
@@ -43,3 +48,4 @@ e so rodar
 python app.py
 # ou
 flask --app app --debug
+
